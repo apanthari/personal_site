@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Courier New', Courier, monospace;
+    background: #010408;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    height: 20vh;
+    display: flex;
+}
+
+
+.container{
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    display: flex;
+}
+
+.headshot{
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    display: flex;
+}
+
+
+.description{
+    height: 5vh;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;  
+}
+
+
+.project-title{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff; 
+
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* or whatever height you need */
+  }
+
+
+.clickable-box{
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer; /* Makes the cursor look like a hand on hover */
+    align-items: center;
+  }
+
+
+
+  
+
